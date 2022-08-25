@@ -33,7 +33,7 @@ def midpoint(x1, y1, x2, y2):
 
 print("enter first coordinate:")
 a=int(input())
-b=int(input())0
+b=int(input())
 print("enter second coordinate:")
 c=int(input())
 d=int(input())
