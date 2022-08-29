@@ -43,3 +43,32 @@ midpoint(a,b,c,d)
 
 
 #Nuember forth are you a cool kids????
+
+friends = ["Sebas","Rachael","Jackie","Simon","Kevin"]
+print(friends)
+friends.sort()
+print(friends)
+
+if "Sebas" in friends:
+    print ("NERD ALERT ( ͡° ͜ʖ ͡°) ")
+print(friends[0])
+
+if "Rachael" in friends:
+    print ("NERD ALERT ( ͡° ͜ʖ ͡°) ")
+print(friends[1])
+
+if "Jackie" in friends:
+    print ("NERD ALERT ( ͡° ͜ʖ ͡°) ")
+print(friends[2])
+
+if "Simon" in friends:
+    print ("NERD ALERT ( ͡° ͜ʖ ͡°) ")
+print(friends[3])
+
+if "Kevin" in friends:
+    print ("NERD ALERT ( ͡° ͜ʖ ͡°) ")
+print(friends[4])
+else:
+    print("OUT OF MY HOUSe")
+
+
