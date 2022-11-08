@@ -36,6 +36,22 @@ class LinkedList:
             else:
                 lol += 1
                 current = current.next
+                
+    def numStudents(self):
+         lamo = 0
+         current = self.head
+         while current:
+            lamo += 1
+            current = current.next
+         print("There are:", lamo,"students")
+         
+#     def bounty(self, x):
+#         current = self.head
+#         while current:
+#             if x == 3:
+#                 print("The student on bounty is: ")
+#                 
+
 
        #create vairable, initialize to 0
         #walk through the linked list
@@ -52,8 +68,9 @@ StudentLine.insert("Nicky", 5486, "anime")
 StudentLine.insert("Lala",7, "Stupid memes")
 StudentLine.insert("Alexa",50265, "Coding")
 
-#LinkedList.printList(StudentLine)
 
-#LinkedList.getNumber(StudentLine)
 StudentLine.printList()
+StudentLine.numStudents()
 print(StudentLine.getNumber())
+# StudentLine.bounty(3)
+
