@@ -73,7 +73,7 @@ StudentLine.insert("Lala",7, "Stupid memes")
 StudentLine.insert("Alexa",50265, "Coding")
 
 
-#StudentLine.printList()
-#StudentLine.numStudents()
-#print(StudentLine.getNumber())
+StudentLine.printList()
+StudentLine.numStudents()
+print(StudentLine.getNumber())
 StudentLine.bounty(3)
